@@ -18,7 +18,7 @@ print(bool((1,2,3)), bool(()))
 print(bool({1:2}), bool({}))
 print(bool(None))
 
-# 논리식의 계산 순서
+# 논리식의 계산 순서 : 왼쪽에서부터 계산하다가 결과값이 나오면 그 값을 return
 print([] or 'logical')
 print('hello' or 'world')
 print('' and 'world')
